@@ -1,0 +1,56 @@
+/* Write your code here. */
+.result-card {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 50%;
+  padding: 15px;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff33;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+.result-title-s {
+  font-size: 38px;
+  color: #ffffff;
+}
+.result-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgUrl {
+  height: 100%;
+  width: 35%;
+}
+.score-p {
+  color: #ffffff;
+  font-weight: bold;
+}
+.span {
+  color: #6a59ff;
+}
+.btn-click {
+  width: 7.5rem;
+  height: 2rem;
+  background-color: #ffce27;
+  border-radius: 6px;
+  border: 0px solid;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+}
+.btn-click:hover {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+}

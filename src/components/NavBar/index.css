@@ -1,0 +1,30 @@
+/* Write your code here. */
+.nav-bar {
+  background-color: #ffffff33;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  height: 10%;
+  padding: 10px;
+}
+.emoji-game {
+  display: flex;
+  gap: 10px;
+}
+.score {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.none-score {
+  display: none;
+}
+.head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
